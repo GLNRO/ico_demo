@@ -1,0 +1,181 @@
+{
+  "contractName": "Bank",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820acf43f5259b137b5e544f3d66151db878aa0090d11bbb031309c7fb0d022eb360029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820acf43f5259b137b5e544f3d66151db878aa0090d11bbb031309c7fb0d022eb360029",
+  "sourceMap": "27:39:0:-;;;45:19;8:9:-1;5:2;;;30:1;27;20:12;5:2;45:19:0;27:39;;;;;;",
+  "deployedSourceMap": "27:39:0:-;;;;;",
+  "source": "pragma solidity ^0.4.22;\n\n\ncontract Bank {\n  constructor() {\n  }\n}\n",
+  "sourcePath": "/Users/lg/Documents/projects/sparschwein/contracts/Bank.sol",
+  "ast": {
+    "absolutePath": "/Users/lg/Documents/projects/sparschwein/contracts/Bank.sol",
+    "exportedSymbols": {
+      "Bank": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "Bank",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "59:5:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "56:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "59:0:0"
+            },
+            "scope": 6,
+            "src": "45:19:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "27:39:0"
+      }
+    ],
+    "src": "0:67:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/lg/Documents/projects/sparschwein/contracts/Bank.sol",
+    "exportedSymbols": {
+      "Bank": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "Bank",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "59:5:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "56:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "59:0:0"
+            },
+            "scope": 6,
+            "src": "45:19:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "27:39:0"
+      }
+    ],
+    "src": "0:67:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xfbc76fb2a6a0dc592a7436f22a4db36b5d9b3ade",
+      "transactionHash": "0x53f06b2c37db8e650e9c05510aa60e97853bd5d7a86896c3d21392925c5fb8c7"
+    }
+  },
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-07-13T10:58:55.809Z"
+}
