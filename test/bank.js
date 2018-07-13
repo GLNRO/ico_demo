@@ -11,4 +11,12 @@ contract('Bank', function(accounts) {
   it("should have a balance initialized at zero", async function(){
     assert.equal(await bank.getBalance(), 0)
   })
+
+  it("adding 1 eth should return a balance of 1", async function(){
+
+  })
+
+  it("should be initialized with an expiration date", async function(){
+    
+  })
 });
