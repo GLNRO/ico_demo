@@ -3,6 +3,7 @@ pragma solidity ^0.4.22;
 
 contract Bank {
 
+  address owner;
   uint private balance;
 
   constructor() public {
@@ -11,5 +12,9 @@ contract Bank {
 
   function getBalance() public constant returns (uint){
     return balance;
+  }
+
+  function () payable public {
+    balance += msg.value;
   }
 }
